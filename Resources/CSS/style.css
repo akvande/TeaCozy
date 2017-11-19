@@ -51,6 +51,15 @@ html, body{
   opacity: 0.9;
 }
 
+/* Content */
+.content{
+  display: flex;
+  flex-direction: column;
+  opacity: 0.9;
+  margin-top: 69px;
+  align-items: center;
+}
+
 /* Top Container */
 
 .top-container{
@@ -58,13 +67,16 @@ html, body{
   width: 1200px;
   height: 700px;
   background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
-  margin-top: 69px;
-  opacity: 0.9;
   align-items: center;
   justify-content: center;
 }
 .top-text{
   background-color: black;
   width: 1200px;
+  text-align: center;
+}
+.middle-text{
+  width:1000px;
+  padding-top: 30px;
   text-align: center;
 }
