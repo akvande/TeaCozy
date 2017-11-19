@@ -1,4 +1,8 @@
 /* Universal Styles */
+html, body{
+  margin:0;
+}
+
 .main-container{
   display: flex;
   font-family: helvetica;
@@ -9,13 +13,21 @@
   height: 1600px;
   width: 100%;
   vertical-align: middle;
+  justify-content: center;
 }
+
+/* top navigation */
+
 .top-nav{
   display:flex;
+  position: fixed;
   height: 69px;
   width: 100%;
+  margin-top: 0;
   vertical-align: middle;
-  border: solid 1px seashell;
+  background-color: black;
+  border-bottom: solid 1px seashell;
+  z-index: 2;
 }
 .top-nav img{
   display:flex;
@@ -37,4 +49,22 @@
   color: seashell;
   text-decoration: underline;
   opacity: 0.9;
+}
+
+/* Top Container */
+
+.top-container{
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg');
+  margin-top: 69px;
+  opacity: 0.9;
+  align-items: center;
+  justify-content: center;
+}
+.top-text{
+  background-color: black;
+  width: 1200px;
+  text-align: center;
 }
