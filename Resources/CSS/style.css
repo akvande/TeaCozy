@@ -75,8 +75,62 @@ html, body{
   width: 1200px;
   text-align: center;
 }
-.middle-text{
+.middle-container{
+  display: flex;
+  flex-direction: column;
   width:1000px;
-  padding-top: 30px;
   text-align: center;
+  justify-content: space-between;
+  align-items: center;
+}
+.middle-text{
+  padding-top: 30px;
+}
+.middle-top{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.middle-top img{
+  height: 200px;
+  width: 300px;
+}
+.midlle-top h4{
+  padding-top: 10px;
+}
+.middle-bottom{
+  display:flex;
+  flex-direction: row;
+  width: 650px;
+  justify-content: space-between;
+}
+.middle-bottom h4{
+  padding-top: 10px;
+}
+.middle-bottom img{
+  height: 200px;
+  width: 300px;
+}
+.image-1{
+  display:flex;
+  flex-direction: column;
+}
+.image-2{
+  display:flex;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.image-3{
+  display:flex;
+  flex-direction: column;
+}
+.image-4{
+  display:flex;
+  flex-direction: column;
+  margin-left: 0;
+}
+.image-5{
+  display:flex;
+  flex-direction: column;
+  margin-right: 0;
 }
