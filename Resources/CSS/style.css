@@ -10,7 +10,7 @@ html, body{
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  height: 2500px;
+  height: 100%;
   width: 100%;
   vertical-align: middle;
   justify-content: center;
@@ -183,4 +183,33 @@ html, body{
   background-color: black;
   width: 300px;
   text-align: center;
+}
+
+/* Footer Container */
+
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 0px;
+  padding-top: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height:200px;
+}
+.footer-container h2{
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.copyright{
+  display: flex;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  font-family: helvetica;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 20px;
+  padding-top: 60px;
 }
